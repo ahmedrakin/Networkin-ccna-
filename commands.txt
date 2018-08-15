@@ -1,0 +1,33 @@
+>user
+#global(checking)
+hostname
+int fao/1 switch
+     fa0/0 router
+
+do sh run (to see all the config)
+
+config line 
+ip add
+console pass
+line vty o 15 (telnet)
+pass
+
+int vlan1
+pass
+
+conf t-command modedo sh ip int br- show all the interface
+write/ copy running config startup config -   save
+
+SW1(config)#crypto key generate rsa
+SW1(config)#ip domain-name  diu.com
+SW1(config)#ip ssh version 2
+SW1(config-line)#transport input telnet 
+
+
+sw()int range
+
+
+
+stp:spling tree prot fast(for judging the lowest cost)
+
+

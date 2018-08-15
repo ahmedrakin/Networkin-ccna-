@@ -1,0 +1,16 @@
+int range fa0/?-?
+show vlan
+show int 
+
+
+vtp configuration:
+
+
+#show vtp status
+
+
+
+sw(congig)#vtp version <1/2>
+sw(congig)#vtp mode <server?client?transparent>
+sw(congig)#vtp domain <domain name>
+sw(congig)#tp password<word>
